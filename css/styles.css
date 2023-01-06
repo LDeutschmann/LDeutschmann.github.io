@@ -7306,7 +7306,7 @@ h3 {
     left: 0;
     transition: all 0.2s ease-in-out;
     opacity: 0;
-    background-color: rgba(188, 102, 26, 0.9); }
+    background-color: rgba(33, 37, 41); }
     .portfolio .portfolio-item .portfolio-item-caption:hover {
       opacity: 1; }
     .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
