@@ -1801,8 +1801,8 @@ fieldset:disabled a.btn {
     border-color: #212529; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #8f4e14;
-    border-color: #844812; }
+    background-color: #212529;
+    border-color: #212529; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 1); }
 
