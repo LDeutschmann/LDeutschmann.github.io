@@ -61,54 +61,49 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
+                <!-- Overstrike Arena on a separate row, larger size -->
                 <div class="row justify-content-center">
-                    <!-- Portfolio Items-->
-                    <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><h3>SUBWAY</h3> <n> <h3>SMASH</h3></n></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/CoverSubwaySmash.png" alt="Subway Smash"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><h3>I NEED A HERO</h3></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/i need a hero.png" alt="I need a hero"/>
-                        </div>
-                    </div>
-                    <!--
-                    <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><h3>DINO HUNT</h3></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/couv.png" alt="DINO HUNT"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><h3>LIFTON AND K00K</h3></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/liftonkook.PNG" alt="LIFTON AND KOOK"/>
-                        </div>
-                    </div>
-                    //-->
-                    <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                    <div class="col-md-6 col-lg-6 mb-5" style="position: relative"> <!-- Make this div larger for a bigger card -->
+                        <div class="portfolio-item mx-auto main-item" data-toggle="modal" data-target="#portfolioModal3" style="position: relative;">
+                            <!-- Steam logo on the top right -->
+                            <img src="assets/img/portfolio/steam-logo.png" alt="Steam Logo" style="position: absolute; top: -10px; right: -10px; width: 40px; height: auto; z-index: 10;"/>
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><h3>OVERSTRIKE ARENA</h3></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/overstrikeArena.png" alt="OVERSTRIKE ARENA"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><h3>ALL IS GRAY</h3></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/AllIsGrayScreen01.png" alt="ALL IS GRAY<"/>
+                            </div>
+                            <img class="img-fluid item-img" src="assets/img/portfolio/overstrikeArena.png" alt="OVERSTRIKE ARENA"/>
                         </div>
                     </div>
                 </div>
-            </div>
+
+                <!-- Portfolio Items on the same row, making the smaller cards bigger by 30% -->
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-5"> <!-- Increased the size by changing col-lg-3 to col-lg-4 -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <h3>SUBWAY</h3> <n> <h3>SMASH</h3></n>
+                                </div>
+                            </div>
+                            <img class="img-fluid item-img" src="assets/img/portfolio/CoverSubwaySmash.png" alt="Subway Smash"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5"> <!-- Increased the size by changing col-lg-3 to col-lg-4 -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><h3>I NEED A HERO</h3></div>
+                            </div>
+                            <img class="img-fluid item-img" src="assets/img/portfolio/i need a hero.png" alt="I need a hero"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5"> <!-- Increased the size by changing col-lg-3 to col-lg-4 -->
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><h3>ALL IS GRAY</h3></div>
+                            </div>
+                            <img class="img-fluid item-img" src="assets/img/portfolio/AllIsGrayScreen01.png" alt="ALL IS GRAY"/>
+                        </div>
+                    </div>
+                </div>
         </section>
         <!-- Portfolio Modal-->
         <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
@@ -431,6 +426,11 @@
                                     <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-secondary mb-0">OVERSTRIKE ARENA</h2>
                                     <h4 class="mb-5">a competitive fast-paced 2v2 First-Person Shooter with evolving arenas</h4>
+                                    <h4 style="text-decoration: underline; color: orange; display: flex; align-items: center; gap: 8px; justify-content: center;">
+                                        <img style="height: 24px" src="assets/img/portfolio/link-svgrepo-com.svg" />
+                                        <a href="https://store.steampowered.com/app/1937550/Overstrike_Arena/">Steam Page Link</a>
+                                    </h4>
+
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -510,7 +510,7 @@
 
                                     <!-- Portfolio Modal - Text-->
 
-                                    <h4><a href="https://store.steampowered.com/app/1937550/Overstrike_Arena/"> Steam Page Link</a></h4>
+                                    
                                     
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
