@@ -4514,6 +4514,13 @@ a.close.disabled {
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out; }
 
+  .carousel-img {
+    width: 100%;      /* Adjust size as needed (e.g., 70%, 800px, etc.) */
+    max-width: 100%; /* Prevents overflow on small screens */
+    height: auto;    /* Keeps image aspect ratio */
+  }
+  
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none; } }
